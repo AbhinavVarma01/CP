@@ -153,3 +153,19 @@ int main(){
     }
     return 0;
 } */
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string s;
+    cin>>s;
+    string x = s;
+    reverse(x.begin(),x.end());
+    if(x==s){
+        cout<<"It is a palindrome";
+    }
+    else{
+        cout<<"Its not a palindrome";
+    }
+    return 0;
+}
